@@ -1,15 +1,23 @@
 # IpHelper
 
-[![CI Status](http://img.shields.io/travis/giordano scalzo/IpHelper.svg?style=flat)](https://travis-ci.org/giordano scalzo/IpHelper)
+[![Twitter](https://img.shields.io/badge/contact-@GiordanoScalzo-blue.svg?style=flat)](http://twitter.com/giordanoscalzo)
 [![Version](https://img.shields.io/cocoapods/v/IpHelper.svg?style=flat)](http://cocoapods.org/pods/IpHelper)
 [![License](https://img.shields.io/cocoapods/l/IpHelper.svg?style=flat)](http://cocoapods.org/pods/IpHelper)
-[![Platform](https://img.shields.io/cocoapods/p/IpHelper.svg?style=flat)](http://cocoapods.org/pods/IpHelper)
+[![CocoaPods](https://img.shields.io/cocoapods/v/IpHelper.svg?style=flat)](https://github.com/giordanoscalzo/IpHelper)
+
+## Description
+
+IpHelper is a nanoFramework to get the IP address programmatically in a iOS/OSX app.
 
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+```objc
+NSLog(@"%@", [IpHelper ipAddressIPV4:YES]);
+NSLog(@"%@", [IpHelper ipAddressIPV4:NO]);
+NSLog(@"%@", [IpHelper ipAddresses]);
+```
 
 ## Installation
 
@@ -19,6 +27,11 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "IpHelper"
 ```
+
+## Credits
+
+Based on the code of [David H](dhoerl.wordpress.com) in this [Stack Overflow question](http://stackoverflow.com/questions/7072989/iphone-ipad-osx-how-to-get-my-ip-address-programmatically)
+
 
 ## Author
 

@@ -1,0 +1,14 @@
+PODS:
+  - IpHelper (0.1.0)
+
+DEPENDENCIES:
+  - IpHelper (from `../`)
+
+EXTERNAL SOURCES:
+  IpHelper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  IpHelper: 65608a67e7d4856018a1e3b40201e6ba436ce5a6
+
+COCOAPODS: 0.36.0

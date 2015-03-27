@@ -7,6 +7,7 @@
 //
 
 #import "ECViewController.h"
+#import "IpHelper.h"
 
 @interface ECViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%@", [IpHelper ipAddressIPV4:YES]);
+    NSLog(@"%@", [IpHelper ipAddressIPV4:NO]);
+    NSLog(@"%@", [IpHelper ipAddresses]);
 }
 
 - (void)didReceiveMemoryWarning
