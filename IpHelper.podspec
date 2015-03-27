@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
                        An helper to get the local ip address.
 
                        DESC
-  s.homepage         = "https://github.com/giordanoscalzo/IpHelper"
+  s.homepage         = "https://github.com/gscalzo/IpHelper"
   s.license          = 'MIT'
   s.author           = { "giordano scalzo" => "giordano.scalzo@gmail.com" }
-  s.source           = { :git => "https://github.com/giordanoscalzo/IpHelper.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/gscalzo/IpHelper.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/giordanoscalzo'
 
   s.platform     = :ios, '7.0'
